@@ -1,0 +1,17 @@
+set autoindent
+set softwrap
+set tabsize 4
+set mouse
+set tabstospaces
+set indicator
+set linenumbers
+set regexp
+
+bind ^Q exit all
+bind ^S savefile main
+bind ^F whereis all
+bind ^X cut main
+bind ^C copy main
+bind ^V paste all
+bind ^Z undo main
+bind ^Y redo main
